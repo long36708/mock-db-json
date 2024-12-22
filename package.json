@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx json-server db.json5"
+    "dev": "npx json-server db.json5 -p 5555",
+    "mock": "npx json-server db.json -p 7777",
+    "help": "json-server --help"
   },
   "keywords": [],
   "author": "longmo",
